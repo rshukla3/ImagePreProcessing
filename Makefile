@@ -3,7 +3,7 @@ CC=g++
 CFLAGS+=`pkg-config --cflags opencv`
 LDFLAGS+=`pkg-config --libs opencv`
 
-PROG=edge_detect_canny
+PROG=Image_PreProcessing
 OBJS=$(PROG).o
 
 .PHONY: all clean
